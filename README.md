@@ -25,6 +25,8 @@ Si no desean bajar el proyecto y ejecutar directamente el microservicio favor co
 
 
 5. Este jar lo podemos ubicar en cualquier carpeta y con una terminal de comando ejecutamos 
+
+
 java -jar micoroservicios_create_user-0.0.1-SNAPSHOT.jar
 
 
