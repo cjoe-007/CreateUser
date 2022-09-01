@@ -23,7 +23,7 @@ Empaquetado y ejecución del microservicio;
 
 
 5. Este jar lo podemos ubicar en cualquier carpeta y con una terminal de comando ejecutamos 
-java -jar micoroservicios_create_user-0.0.1-SNAPSHOT.jar
+# java -jar micoroservicios_create_user-0.0.1-SNAPSHOT.jar
 
 
  
