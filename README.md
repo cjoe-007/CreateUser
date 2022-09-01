@@ -1,5 +1,7 @@
 # CreateUser
 
+Revisar CreateUser.docx se encuentra con imágenes.
+
 En esta primera versión se tiene la creación de un usuario. Consta de 1 parte 
 
 1. micoroservicios_create_user= es la parte back end desarrollado con Java 8, IDE Eclipse, jpa, base de datos en memoria hdbsql, Spring Boot, Servidor tomcat.
