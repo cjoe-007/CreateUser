@@ -24,8 +24,8 @@ Empaquetado y ejecución del microservicio;
  
 
 
-5. Este jar lo podemos ubicar en cualquier carpeta y con una terminal de comando ejecutamos:  
- java -jar micoroservicios_create_user-0.0.1-SNAPSHOT.jar
+5. Este jar lo podemos ubicar en cualquier carpeta y con una terminal de comando ejecutamos 
+java -jar micoroservicios_create_user-0.0.1-SNAPSHOT.jar
 
 
  
@@ -48,5 +48,18 @@ curl --location --request POST 'http://localhost:9000/createUser' \
     ]
 }
 '
+
+ 
+
+6. Los datos de base se encuentra en data.sql.
+/microservice_create_user/src/main/resources/data.sql
+
+ 
+
+7. Para configurar el password ubicarse en el archivo ValidatePassword.java y modificar los valores MIN_Uppercase validara cuantas letras mayúsculas debe tener clave.
+/microservice_create_user/src/main/java/com/create/user/interceptor/ValidatePassword.java
+
+ 
+
 
  
